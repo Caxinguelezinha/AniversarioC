@@ -1,0 +1,1354 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orelega+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Orelega+One&family=Playfair+Display+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata&family=Kaushan+Script&family=Orelega+One&family=Playfair+Display+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inconsolata&family=Indie+Flower&family=Kaushan+Script&family=Orelega+One&family=Pacifico&family=Playfair+Display+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Inconsolata&family=Indie+Flower&family=Kaushan+Script&family=Orelega+One&family=Pacifico&family=Playfair+Display+SC&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, #FAF1B8, transparent);
+}
+
+div#luacheia {
+    background-image: url("Design/luacheia.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh !important;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+div#boasvindas {
+    background-color: rgba(0, 0, 0, 0.623);
+    box-shadow: 1px 1px 10px black;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#boasvindas > h1 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    border-radius: 10px;
+}
+
+div#boasvindas > h1:hover {
+    text-shadow: 1px 1px 10px white;
+}
+
+div#boasvindas > h1 > span {
+    color: red
+}
+
+div#boasvindas > h1 > span:hover {
+    text-shadow: 3px 3px 30px red;
+}
+
+div#boasvindas > img {
+    display: block;
+    max-width: 55px;
+    max-height: 55px;
+    margin: 0px auto 20px auto;
+}
+
+@media (max-width: 1000px) {
+    div#boasvindas > h1 {
+        font-size: 35px;
+    }
+
+    div#boasvindas > img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    div#boasvindas > h1 {
+        font-size: 30px;
+    }
+
+    div#boasvindas > img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 650px) {
+    div#boasvindas > h1 {
+        font-size: 25px;
+    }
+
+    div#boasvindas > img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    div#boasvindas > h1 {
+        font-size: 23px;
+    }
+
+    div#boasvindas > img {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+div#introducao {
+    padding: 20px 0px;
+    margin-bottom: 65px;
+}
+
+div#introducao > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 35px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center;
+}
+
+div#introducao > p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 50px;
+    margin-top: 7.5px;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(255, 17, 0, 0.767);
+}
+
+@media (max-width: 1200px) {
+    div#introducao > h2 {
+        font-size: 32px;
+    }
+
+    div#introducao > p {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 1100px) {
+    div#introducao > h2 {
+        font-size: 30px;
+    }
+
+    div#introducao > p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#introducao > h2 {
+        font-size: 28px;
+    }
+
+    div#introducao > p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 950px) {
+    div#introducao > h2 {
+        font-size: 26px;
+    }
+
+    div#introducao > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#introducao > h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 830px) {
+    div#introducao > h2 {
+        font-size: 23px;
+    }
+
+    div#introducao > p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#introducao > h2 {
+        font-size: 22px;
+    }
+
+    div#introducao > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#introducao > h2 {
+        font-size: 22px;
+    }
+
+    div#introducao > p {
+        font-size: 16px;
+    }
+}
+
+div#identidade {
+    background-image: linear-gradient(to right, #E8E8E8, transparent);
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    box-shadow: 1px 1px 15px black;
+    border-radius: 10px;
+    padding-bottom: 45px;
+    
+}
+
+@media (max-width: 1100px) {
+    div#identidade {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#identidade {
+        width: 650px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#identidade {
+        width: 550px;
+    }
+}
+
+@media (max-width: 630px) {
+    div#identidade {
+        width: 450px;
+    }
+}
+
+div#identidade > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 33px;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    div#identidade > h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1000px) {
+    div#identidade > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#identidade > h2 {
+        font-size: 23px;
+    }
+}
+
+div#identidade > h2#caminho {
+    margin: 20px 0px 30px 0px;
+    font-size: 35px;
+}
+
+@media (max-width: 1200px) {
+    div#identidade > h2#caminho {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#identidade > h2#caminho {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#identidade > h2#caminho {
+        font-size: 21px;
+    }
+}
+
+div#fotolinda {
+    padding: 30px 30px 45px 30px;
+}
+
+@media (max-width: 1100px) {
+    div#fotolinda {
+        width: 800px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#fotolinda {
+        width: 650px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#fotolinda {
+        width: 550px;
+    }
+}
+
+@media (max-width: 630px) {
+    div#fotolinda {
+        width: 450px;
+    }
+}
+
+div#fotolinda > p.coracao {
+    color: red;
+    text-shadow: 0.1px 0.1px 2px red;
+}
+
+div#fotolinda > p.coracao:hover {
+    color: yellow;
+    text-shadow: 0.1px 0.1px 2px yellow;
+}
+
+div#fotolinda > p#esquerda {
+    display: inline-block;
+    float: left;
+    font-size: 26px;
+    width: 342px;
+}
+
+@media (max-width: 1100px) {
+    div#fotolinda > p#esquerda {
+        font-size: 20px;
+        width: 245px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#fotolinda > p#esquerda {
+        font-size: 15px;
+        width: 180px;
+        line-height: 1.6em;
+    }
+}
+
+@media (max-width: 790px) {
+    div#fotolinda > p#esquerda {
+        font-size: 12px;
+        width: 140px;
+        line-height: 1.7em;
+    }
+}
+
+@media (max-width: 630px) {
+    div#fotolinda > p#esquerda {
+        font-size: 9px;
+        width: 115px;
+        line-height: 1.9em;
+    }
+}
+
+div#fotolinda > p#esquerda > abbr {
+    text-decoration: none;
+}
+
+div#fotolinda > p#esquerda span:hover {
+    color: black;
+}
+
+div#fotolinda > img {
+    display: inline-block;
+    width: 252px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+@media (max-width: 1100px) {
+    div#fotolinda > img {
+        width: 210px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#fotolinda > img {
+        width: 190px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#fotolinda > img {
+        width: 160px;
+    }
+}
+
+@media (max-width: 630px) {
+    div#fotolinda > img {
+        width: 120px;
+    }
+}
+
+div#fotolinda > p#direita {
+    display: inline-block;
+    font-size: 26px;
+    width: 342px;
+}
+
+@media (max-width: 1100px) {
+    div#fotolinda > p#direita {
+        font-size: 20px;
+        width: 245px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#fotolinda > p#direita {
+        font-size: 15px;
+        width: 180px;
+        line-height: 1.6em;
+    }
+}
+
+@media (max-width: 790px) {
+    div#fotolinda > p#direita {
+        font-size: 12px;
+        width: 140px;
+        line-height: 1.7em;
+    }
+}
+
+@media (max-width: 630px) {
+    div#fotolinda > p#direita {
+        font-size: 9px;
+        width: 115px;
+        line-height: 1.9em;
+    }
+}
+
+div#fotolinda > p#direita > abbr {
+    text-decoration: none;
+}
+
+div#fotolinda > p#direita span:hover {
+    color: green;
+}
+
+div#identidade > ul {
+    list-style-position: inside;
+    text-align: justify;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+}
+
+div#identidade > ul:hover {
+    background-color: white;
+    box-shadow: 1px 1px 15px black;
+}
+
+div#identidade > ul > li {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+@media (max-width: 1200px) {
+    div#identidade > ul > li {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#identidade > ul > li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#identidade > ul > li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#identidade > ul > li {
+        font-size: 15px;
+    }
+}
+
+div#identidade > ul > li#invasor > a {
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+div#identidade > ul > li#invasor > a:hover {
+    background-color: rgba(0, 0, 255, 0.486);
+}
+
+div#identidade > ul > li#invasor {
+    padding: 10px;
+}
+
+div#identidade > ul > li#nenem {
+    padding: 10px;
+}
+
+div#identidade > ul > p {
+    font-size: 60px;
+    text-align: center;
+}
+
+div#surpresa {
+    display: none;
+}
+
+div#forte {
+    margin-top: 3800px;
+    background-image: url("Design/forte.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh !important;
+    position: relative;
+    box-shadow: 1px 1px 15px black;
+}
+
+div#confianca {
+    background-color: rgba(0, 0, 0, 0.795);
+    box-shadow: 1px 1px 15px #333333;
+    padding: 10px 0px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#confianca > h2 {
+    color: white;
+    font-family: 'Orelega One', cursive;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    div#confianca > h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#confianca > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#confianca > h2 {
+        font-size: 23px;
+    }
+}
+
+div#confianca > p {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 7.5px;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(255, 17, 0, 0.767);
+}
+
+@media (max-width: 1200px) {
+    div#confianca > p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#confianca > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#confianca > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#confianca > p {
+        font-size: 15px;
+    }
+}
+
+div#confianca > p#seta {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#impressao {
+    margin-top: 3800px;
+    margin-bottom: 7.5px;
+}
+
+div#impressao > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center; 
+}
+
+@media (max-width: 1200px) {
+    div#impressao > h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#impressao > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#impressao > h2 {
+        font-size: 23px;
+    }
+}
+
+div#momentosaudade {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px black;
+}
+
+div#momentosaudade:hover > div#hidden {
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    div#momentosaudade {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#momentosaudade {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#momentosaudade {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#momentosaudade {
+        font-size: 15px;
+    }
+}
+
+div#hidden {
+    margin-top: 30px;
+    padding-top: 15px;
+    display: none;
+    background-image: linear-gradient(to right, #999999, transparent);
+    box-shadow: 1px 1px 15px #3E4F04;
+}
+
+div#hidden > p#chuvinha {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(0, 255, 242, 0.767);
+}
+
+@media (max-width: 1200px) {
+    div#hidden > p#chuvinha {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#hidden > p#chuvinha {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#hidden > p#chuvinha {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#hidden > p#chuvinha {
+        font-size: 15px;
+    }
+}
+
+div#hidden > img {
+    display: block;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+}
+
+@media (max-width: 1200px) {
+    div#hidden > img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    div#hidden > img {
+        width: 430px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#hidden > img {
+        width: 350px;
+    }
+}
+
+div#hidden > p#seguepassando {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 35px;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(255, 17, 0, 0.767);;
+}
+
+@media (max-width: 1200px) {
+    div#hidden > p#seguepassando {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#hidden > p#seguepassando {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#hidden > p#seguepassando {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#hidden > p#seguepassando {
+        font-size: 15px;
+    }
+}
+
+div#hidden > p#seta {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#missingmore {
+    margin-top: 3800px;
+    padding: 20px 0px;
+    background-image: linear-gradient(to right, #999999, transparent);
+    box-shadow: 1px 1px 15px black;
+}
+
+div#missingmore > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    div#missingmore > h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#missingmore > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#missingmore > h2 {
+        font-size: 23px;
+    }
+}
+
+div#missingmore > img {
+    display: block;
+    max-width: 850px;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-30px);
+    }
+
+    25% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+div#missingmore > p#descida {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 100px;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(255, 17, 0, 0.767);;
+}
+
+@media (max-width: 1200px) {
+    div#missingmore > p#descida {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#missingmore > p#descida {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#missingmore > p#descida {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#missingmore > p#descida {
+        font-size: 15px;
+    }
+}
+
+div#missingmore > p#seta {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#antespordosol {
+    margin-top: 3800px;
+    background-image: linear-gradient(to right, #999999, transparent);
+    box-shadow: 1px 1px 15px #595959;
+}
+
+div#antespordosol:hover {
+    background-image: linear-gradient(to right, #8F006B, transparent);
+    box-shadow: 1px 1px 20px #18AB42;
+}
+
+div#antespordosol > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    div#antespordosol > h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#antespordosol > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    div#antespordosol > h2 {
+        font-size: 23px;
+    }
+}
+
+div#pordosol {
+    background-image: url("Design/por-do-sol.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    padding: 100px 0px;
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 1px 1px 10px;
+}
+
+div#felicitacoes {
+    background-image: url("Design/por-do-sol.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    min-width: 320px;
+    max-width: 700px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+@media (max-width: 900px) {
+    div#felicitacoes {
+        width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    div#felicitacoes {
+        width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#felicitacoes {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#felicitacoes {
+        width: 350px;
+    }
+}
+
+div#felicitacoes > h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: -50px -50px 50px -50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.541);
+}
+
+@media (max-width: 600px) {
+    div#felicitacoes > h1 {
+        font-size: 30px;
+    }
+}
+
+div#parabens {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 15px 25px;
+    min-width: 320px;
+    max-width: 450px;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.719);
+}
+
+@media (max-width: 600px) {
+    div#parabens {
+        width: 230px;
+    }
+}
+
+div#parabens:hover {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+div#parabens > p {
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 22px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+@media (max-width: 900px) {
+    div#parabens > p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    div#parabens > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#parabens > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#parabens > p {
+        font-size: 15px;
+    }
+}
+
+div#parabens > p#centroparabens {
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+@media (max-width: 900px) {
+    div#parabens > p#centroparabens {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    div#parabens > p#centroparabens {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#parabens > p#centroparabens {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    div#parabens > p#centroparabens {
+        font-size: 15px;
+    }
+}
+
+div#antesmomentos {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+div#antesmomentos > h2 {
+    font-family: 'Orelega One', cursive;
+    padding: 0px 120px;
+    font-size: 35px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    div#antesmomentos > h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1100px) {
+    div#antesmomentos > h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#antesmomentos > h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 950px) {
+    div#antesmomentos > h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#antesmomentos > h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 830px) {
+    div#antesmomentos > h2 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#antesmomentos > h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#antesmomentos > h2 {
+        font-size: 22px;
+    }
+}
+
+div#momentos {  
+    background-image: url("Design/estrelas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh !important;
+    margin-bottom: 100px;
+    position: relative;
+    box-shadow: 1px 1px 10px black;
+}
+
+div#momentos > h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-family: 'Orelega One', cursive;
+    font-size: 35px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+div#lembrancas {
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.616);
+    
+}
+
+div#lembrancas > p {
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+div#lembrancas > ul {
+    margin: 30px 30px 0px 30px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    columns: 2;
+}
+
+div#lembrancas a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    padding: 3px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+div#lembrancas a:hover {
+    background-color: rgba(255, 0, 0, 0.616);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div#final {
+    margin-bottom: 50px;
+}
+
+div#final > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 45px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center;
+}
+
+div#final > p {
+    font-family: 'Acme', sans-serif;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.3em;
+    padding: 15px 0px;
+    max-width: 800px;
+    margin: auto;
+}
+
+div#final > audio {
+    display: block;
+    max-width: 500px;
+    margin: 40px auto 30px auto;
+}
+
+@media (max-width: 1200px) {
+    div#final > h2 {
+        font-size: 42px;
+    }
+
+    div#final > p {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 1100px) {
+    div#final > h2 {
+        font-size: 40px;
+    }
+
+    div#final > p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#final > h2 {
+        font-size: 38px;
+    }
+
+    div#final > p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 950px) {
+    div#final > h2 {
+        font-size: 36px;
+    }
+
+    div#final > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#final > h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 830px) {
+    div#final > h2 {
+        font-size: 33px;
+    }
+
+    div#final > p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#final > h2 {
+        font-size: 32px;
+    }
+
+    div#final > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#final > h2 {
+        font-size: 32px;
+    }
+
+    div#final > p {
+        font-size: 16px;
+    }
+}
+
+div#autoria {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+div#autoria > a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+div#autoria > a:hover {
+    text-decoration: underline;
+    background-color: red;
+}

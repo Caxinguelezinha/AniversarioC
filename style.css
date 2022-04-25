@@ -352,7 +352,7 @@ div#identidade > h2#caminho {
 }
 
 @media (max-width: 700px) {
-    div#introducao > h2 {
+    div#identidade > h2 {
         font-size: 22px;
     }
 

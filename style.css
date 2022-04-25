@@ -443,11 +443,10 @@ div#fotolinda > p#esquerda {
 }
 
 @media (max-width: 500px) {
-    div#fotolinda > p#esquerda {
-        font-size: 7.7px;
+    div#fotolinda > p#direita {
+        font-size: 7px;
         width: 90px;
-        line-height: 2em;
-        margin-left: 0px;
+        line-height: 2.4em;
     }
 }
 
@@ -529,9 +528,9 @@ div#fotolinda > p#direita {
 
 @media (max-width: 500px) {
     div#fotolinda > p#direita {
-        font-size: 7.7px;
+        font-size: 7px;
         width: 90px;
-        line-height: 2em;
+        line-height: 2.4em;
     }
 }
 

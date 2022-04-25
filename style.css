@@ -287,67 +287,67 @@ div#identidade > h2#caminho {
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 32px;
     }
 }
 
 @media (max-width: 1100px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 30px;
     }
 }
 
 @media (max-width: 1050px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 28px;
     }
 }
 
 @media (max-width: 950px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 26px;
     }
 }
 
 @media (max-width: 900px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 830px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 23px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 23px;
     }
 }
 
 @media (max-width: 790px) {
     div#identidade > h2 {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     div#identidade > h2#caminho {
-        font-size: 27px;
+        font-size: 22px;
     }
 }
 
@@ -356,8 +356,8 @@ div#identidade > h2#caminho {
         font-size: 22px;
     }
 
-    div#introducao > p {
-        font-size: 16px;
+    div#identidade > h2#caminho {
+        font-size: 22px;
     }
 }
 

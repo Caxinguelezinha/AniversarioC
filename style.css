@@ -1446,6 +1446,12 @@ div#autoria {
     font-family: 'Acme', sans-serif;
 }
 
+@media (max-width: 850px) {
+    div#autoria {
+        font-size: 20px;
+    }
+}
+
 div#autoria > a {
     text-decoration: none;
     color: white;

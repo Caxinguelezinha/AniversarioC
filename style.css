@@ -256,6 +256,12 @@ div#identidade {
     }
 }
 
+@media (max-width: 450px) {
+    div#identidade {
+        width: 300px;
+    }
+}
+
 @media (max-width: 370px) {
     div#identidade {
         width: 290px;

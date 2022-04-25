@@ -404,7 +404,6 @@ div#fotolinda > p#esquerda {
     float: left;
     font-size: 26px;
     width: 342px;
-    margin-left: 25px;
 }
 
 @media (max-width: 1100px) {

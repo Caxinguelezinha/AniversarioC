@@ -419,6 +419,7 @@ div#fotolinda > p#esquerda {
         font-size: 15px;
         width: 180px;
         line-height: 1.6em;
+        margin: 0px;
     }
 }
 
@@ -427,6 +428,7 @@ div#fotolinda > p#esquerda {
         font-size: 12px;
         width: 140px;
         line-height: 1.7em;
+        margin: 0px;
     }
 }
 
@@ -435,14 +437,16 @@ div#fotolinda > p#esquerda {
         font-size: 9px;
         width: 115px;
         line-height: 1.9em;
+        margin: 0px;
     }
 }
 
 @media (max-width: 500px) {
     div#fotolinda > p#esquerda {
-        font-size: 9px;
+        font-size: 7px;
         width: 90px;
         line-height: 1.9em;
+        margin: 0px;
     }
 }
 
@@ -524,7 +528,7 @@ div#fotolinda > p#direita {
 
 @media (max-width: 500px) {
     div#fotolinda > p#direita {
-        font-size: 9px;
+        font-size: 7px;
         width: 90px;
         line-height: 1.9em;
     }
@@ -560,7 +564,7 @@ div#identidade > ul > li {
 
 @media (max-width: 1200px) {
     div#identidade > ul > li {
-        font-size: 27px;
+        font-size: 24px;
     }
 }
 

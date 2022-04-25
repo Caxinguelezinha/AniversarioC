@@ -443,7 +443,7 @@ div#fotolinda > p#esquerda {
 }
 
 @media (max-width: 500px) {
-    div#fotolinda > p#direita {
+    div#fotolinda > p#esquerda {
         font-size: 7px;
         width: 90px;
         line-height: 2.4em;

@@ -444,7 +444,7 @@ div#fotolinda > p#esquerda {
 
 @media (max-width: 500px) {
     div#fotolinda > p#esquerda {
-        font-size: 7px;
+        font-size: 8px;
         width: 90px;
         line-height: 1.9em;
         margin: 0px;

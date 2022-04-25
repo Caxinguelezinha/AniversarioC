@@ -256,6 +256,12 @@ div#identidade {
     }
 }
 
+@media (max-width: 370px) {
+    div#identidade {
+        width: 290px;
+    }
+}
+
 div#identidade > h2 {
     font-family: 'Orelega One', cursive;
     font-size: 33px;

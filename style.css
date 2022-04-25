@@ -420,7 +420,7 @@ div#fotolinda > p#esquerda {
         font-size: 15px;
         width: 180px;
         line-height: 1.6em;
-        margin-left: 25px;
+        margin-left: 21px;
     }
 }
 
@@ -429,7 +429,7 @@ div#fotolinda > p#esquerda {
         font-size: 12px;
         width: 140px;
         line-height: 1.7em;
-        margin-left: 25px;
+        margin-left: 21px;
     }
 }
 
@@ -438,15 +438,15 @@ div#fotolinda > p#esquerda {
         font-size: 9px;
         width: 115px;
         line-height: 1.9em;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 }
 
 @media (max-width: 500px) {
     div#fotolinda > p#esquerda {
-        font-size: 6px;
+        font-size: 7.7px;
         width: 90px;
-        line-height: 1.9em;
+        line-height: 2em;
         margin-left: 0px;
     }
 }
@@ -529,9 +529,9 @@ div#fotolinda > p#direita {
 
 @media (max-width: 500px) {
     div#fotolinda > p#direita {
-        font-size: 7px;
+        font-size: 7.7px;
         width: 90px;
-        line-height: 1.9em;
+        line-height: 2em;
     }
 }
 

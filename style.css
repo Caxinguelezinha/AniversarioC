@@ -411,6 +411,7 @@ div#fotolinda > p#esquerda {
     div#fotolinda > p#esquerda {
         font-size: 20px;
         width: 245px;
+        margin-left: 25px;
     }
 }
 
@@ -419,6 +420,7 @@ div#fotolinda > p#esquerda {
         font-size: 15px;
         width: 180px;
         line-height: 1.6em;
+        margin-left: 25px;
     }
 }
 
@@ -427,6 +429,7 @@ div#fotolinda > p#esquerda {
         font-size: 12px;
         width: 140px;
         line-height: 1.7em;
+        margin-left: 25px;
     }
 }
 
@@ -435,6 +438,7 @@ div#fotolinda > p#esquerda {
         font-size: 9px;
         width: 115px;
         line-height: 1.9em;
+        margin-left: 25px;
     }
 }
 
@@ -443,7 +447,7 @@ div#fotolinda > p#esquerda {
         font-size: 6px;
         width: 90px;
         line-height: 1.9em;
-        margin: 0px;
+        margin-left: 0px;
     }
 }
 

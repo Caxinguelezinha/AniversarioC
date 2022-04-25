@@ -386,7 +386,6 @@ div#fotolinda {
 @media (max-width: 630px) {
     div#fotolinda {
         width: 450px;
-        padding: 0px;
     }
 }
 

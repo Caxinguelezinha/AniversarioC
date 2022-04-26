@@ -1126,10 +1126,6 @@ div#felicitacoes {
     div#felicitacoes {
         width: 300px;
     }
-
-    div#parabens {
-        margin-left: -15px;
-    }
 }
 
 div#felicitacoes > h1 {
@@ -1164,6 +1160,12 @@ div#parabens {
     div#parabens {
         width: 210px;
         padding: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    div#parabens {
+        margin-left: -15px;
     }
 }
 

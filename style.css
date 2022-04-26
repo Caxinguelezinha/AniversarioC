@@ -1118,7 +1118,7 @@ div#felicitacoes {
 
 @media (max-width: 600px) {
     div#felicitacoes {
-        width: 330px;
+        width: 350px;
     }
 }
 
@@ -1152,7 +1152,7 @@ div#parabens {
 
 @media (max-width: 600px) {
     div#parabens {
-        width: 230px;
+        width: 210px;
     }
 }
 

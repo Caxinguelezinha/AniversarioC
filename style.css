@@ -451,6 +451,15 @@ div#fotolinda > p#esquerda {
     }
 }
 
+@media (max-width: 500px) {
+    div#fotolinda > p#esquerda {
+        font-size: 6px;
+        width: 75px;
+        line-height: 2.6em;
+        margin-left: -6px;
+    }
+}
+
 div#fotolinda > p#esquerda > abbr {
     text-decoration: none;
 }
@@ -532,6 +541,14 @@ div#fotolinda > p#direita {
         font-size: 7px;
         width: 90px;
         line-height: 2.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    div#fotolinda > p#direita {
+        font-size: 6px;
+        width: 75px;
+        line-height: 2.6em;
     }
 }
 

@@ -1469,6 +1469,12 @@ div#final > audio {
     margin: 40px auto 30px auto;
 }
 
+div#final > img {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
 div#autoria {
     background-color: black;
     color: white;

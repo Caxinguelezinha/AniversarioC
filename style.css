@@ -1472,7 +1472,7 @@ div#final > audio {
 div#final > img {
     display: block;
     max-width: 350px;
-    margin: auto;
+    margin: 20px auto 0px auto;
 }
 
 div#autoria {

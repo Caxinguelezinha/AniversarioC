@@ -1431,13 +1431,12 @@ div#lembrancas > ul {
 @media (max-width: 560px) {
     div#momentos {
         height: 5000px !important;
-        position: static;
     }
 
     div#lembrancas {
-        position: static;
-        width: 80%;
-        margin: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     div#lembrancas > p {

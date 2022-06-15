@@ -1612,10 +1612,11 @@ div#continuacao > h2 {
 
 div#continuacao > p {
     font-family: 'Orelega One', cursive;
-    font-size: 34px;
+    font-size: 22px;
     padding: 10px 0px;
-    margin-bottom: 7.5px;
     text-align: center;
+    width: 80%;
+    margin: 0px auto 0px auto
 }
 
 div#autoria {

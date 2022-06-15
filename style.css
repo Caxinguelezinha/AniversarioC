@@ -1428,7 +1428,7 @@ div#lembrancas > ul {
     }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 560px) {
     div#momentos {
         height: 10000px !important;
         position: static;

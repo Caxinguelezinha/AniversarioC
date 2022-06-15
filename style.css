@@ -1475,6 +1475,26 @@ div#final > img {
     margin: 30px auto 0px auto;
 }
 
+div#continuacao {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+div#continuacao > h2 {
+    font-family: 'Orelega One', cursive;
+    padding: 0px 120px;
+    font-size: 35px;
+    text-align: center;
+}
+
+div#continuacao > h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 38px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
+    text-align: center;
+}
+
 div#autoria {
     background-color: black;
     color: white;

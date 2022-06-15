@@ -1465,6 +1465,14 @@ div#lembrancas > ul {
         font-size: 12px;
         line-height: 1.5em;
     }
+
+    div#lembrancas > ul > li {
+        margin: 30px 30px 0px 30px;
+        color: white;
+        font-family: 'Acme', sans-serif;
+        font-size: 12px;
+        line-height: 1.5em;
+    }
 }
 
 div#lembrancas a {

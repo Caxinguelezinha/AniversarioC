@@ -1544,7 +1544,7 @@ div#lembrancas a:hover {
 }
 
 div#final {
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 }
 
 div#final > h2 {

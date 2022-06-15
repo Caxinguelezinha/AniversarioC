@@ -1603,20 +1603,23 @@ div#continuacao {
     margin-bottom: 200px;
 }
 
-div#continuacao > h2 {
+div#introducao > h2 {
     font-family: 'Orelega One', cursive;
-    padding: 0px 120px;
-    font-size: 38px;
+    font-size: 35px;
+    padding: 10px 0px;
+    margin-bottom: 7.5px;
     text-align: center;
 }
 
-div#continuacao > p {
-    font-family: 'Orelega One', cursive;
-    font-size: 22px;
-    padding: 10px 0px;
+div#introducao > p {
+    font-family: 'Indie Flower', cursive;
     text-align: center;
-    width: 80%;
-    margin: 0px auto 0px auto
+    padding: 10px 50px;
+    margin-top: 7.5px;
+    color: rgba(255, 0, 0, 0.637);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.1px rgba(255, 17, 0, 0.767);
 }
 
 @media (max-width: 1200px) {

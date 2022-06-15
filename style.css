@@ -1430,7 +1430,7 @@ div#lembrancas > ul {
 
 @media (max-width: 490px) {
     div#momentos {
-        height: 2000px !important;
+        height: 10000px !important;
         position: static;
     }
 

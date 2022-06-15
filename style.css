@@ -1619,6 +1619,82 @@ div#continuacao > p {
     margin: 0px auto 0px auto
 }
 
+@media (max-width: 1200px) {
+    div#continuacao > h2 {
+        font-size: 43px;
+    }
+
+    div#continuacao > p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1100px) {
+    div#continuacao > h2 {
+        font-size: 41px;
+    }
+
+    div#continuacao > p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1050px) {
+    div#continuacao > h2 {
+        font-size: 39px;
+    }
+
+    div#continuacao > p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    div#continucao > h2 {
+        font-size: 37px;
+    }
+
+    div#continuacao > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    div#continuacao > h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 830px) {
+    div#continucao > h2 {
+        font-size: 34px;
+    }
+
+    div#continucao > p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 790px) {
+    div#continuacao > h2 {
+        font-size: 33px;
+    }
+
+    div#continuacao > p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 700px) {
+    div#continuacao > h2 {
+        font-size: 33px;
+    }
+
+    div#continuacao > p {
+        font-size: 15px;
+    }
+}
+
 div#autoria {
     background-color: black;
     color: white;

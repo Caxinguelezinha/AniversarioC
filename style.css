@@ -1430,24 +1430,7 @@ div#lembrancas > ul {
 
 @media (max-width: 490px) {
     div#momentos {
-        background-image: url("Design/estrelas.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        box-shadow: 1px 1px 10px black;
         height: 5000px;
-    }
-
-    div#lembrancas {
-        position: absolute;
-        width: 80%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 10px;
-        border-radius: 8px;
-        background-color: rgba(0, 0, 0, 0.616);
-        
     }
     
     div#lembrancas > p {

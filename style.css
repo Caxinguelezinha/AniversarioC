@@ -1754,6 +1754,11 @@ div#continuacao > p {
     }
 }
 
+div#begining {
+    max-width: 800px;
+    margin: auto;
+}
+
 div#begining > a {
     text-decoration: none;
     display: inline-block;

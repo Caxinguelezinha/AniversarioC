@@ -1430,14 +1430,14 @@ div#lembrancas > ul {
 
 @media (max-width: 560px) {
     div#momentos {
-        height: 10000px !important;
+        height: 5000px !important;
         position: static;
     }
 
     div#lembrancas {
         position: static;
         width: 80%;
-        margin: 0px auto 0px auto;
+        margin: auto;
     }
     
     div#lembrancas > p {

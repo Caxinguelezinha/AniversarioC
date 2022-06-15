@@ -1430,7 +1430,7 @@ div#lembrancas > ul {
 
 @media (max-width: 490px) {
     div#momentos {
-        height: 5000px;
+        height: 2000px !important;
     }
     
     div#lembrancas > p {

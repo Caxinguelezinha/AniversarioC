@@ -1484,13 +1484,13 @@ div#lembrancas > ul {
         margin: 30px 30px 0px 30px;
         color: white;
         font-family: 'Acme', sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.2em;
         columns: 2;
     }
 
     div#lembrancas > ul > li {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -1517,13 +1517,13 @@ div#lembrancas > ul {
         margin: 30px 30px 0px 30px;
         color: white;
         font-family: 'Acme', sans-serif;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 1.2em;
         columns: 2;
     }
 
     div#lembrancas > ul > li {
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 

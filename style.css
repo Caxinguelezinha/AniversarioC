@@ -1435,6 +1435,7 @@ div#lembrancas > ul {
         background-size: cover;
         background-attachment: fixed;
         box-shadow: 1px 1px 10px black;
+        height: 1000px;
     }
 
     div#lembrancas {

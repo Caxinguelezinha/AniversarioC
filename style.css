@@ -1754,6 +1754,11 @@ div#continuacao > p {
     }
 }
 
+div#begining > a {
+    text-decoration: none;
+    display: inline-block;
+}
+
 div#autoria {
     background-color: black;
     color: white;

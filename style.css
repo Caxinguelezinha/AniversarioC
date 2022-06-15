@@ -1443,7 +1443,7 @@ div#lembrancas > ul {
         font-family: 'Acme', sans-serif;
         text-align: justify;
         color: white;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 1.5em;
     }
 
@@ -1457,7 +1457,7 @@ div#lembrancas > ul {
     }
 
     div#lembrancas > ul > li {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
